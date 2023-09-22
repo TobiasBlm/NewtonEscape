@@ -103,3 +103,8 @@ img{
   background:#333;
   color:#fff
 }
+.factsN{
+  position:absolute;
+  left: 40px;
+  top: 155px;
+}
