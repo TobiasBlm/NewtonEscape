@@ -12,3 +12,35 @@
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
 }
+.navBar {
+    padding: 20em 0;
+    text-align: center;
+    background-color: #efefef;
+    font-size: .8em;
+    color: #444;
+    position:relative
+  }
+  .navBar a {
+    color: #f3efef;
+    text-decoration: none;
+  }
+.navBar a:hover {
+    color: #222;
+  }
+  
+  .navBar nav{
+    position:absolute;
+    top:0;
+    left:0;
+    background:#222;
+    width:100%
+  }
+  .navBar nav a{
+    padding:10px 200px;
+    font-size:1.3em;
+    display:inline-block
+  }
+  .navBar nav a:hover{
+    background:#333;
+    color:#fff
+  }
