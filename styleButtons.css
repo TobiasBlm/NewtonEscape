@@ -1,0 +1,55 @@
+.button {
+    
+    color: white;
+    border: none;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 300px;
+    height: 150px;
+}
+
+/*individually set the backround images of the buttons*/
+#button1{
+    background-image: url('backround.jpg'); 
+}
+
+#button2{
+    background-image: url('backround.jpg'); 
+}
+
+#button3{
+    background-image: url('backround.jpg'); 
+}
+
+#button4{
+    background-image: url('backround.jpg'); 
+}
+
+#button5{
+    background-image: url('backround.jpg'); 
+}
+
+#button6{
+    background-image: url('backround.jpg');
+}
+
+.button:hover {
+    background-color: lightgray; 
+    color: black;
+}
+
+.quiz{
+    text-align: center;
+    margin-top: auto;
+}
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    color: #333;
+    text-align: center;
+}
