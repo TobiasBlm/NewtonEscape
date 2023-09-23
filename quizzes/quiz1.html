@@ -1,11 +1,25 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+    <link rel="stylesheet" href="quiz1Styles.css">
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz 1</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="row">
+            <input type="number" id="masse" placeholder="Masse">
+            <input type="number" id="hoehenunterschied" placeholder="Höhenunterschied">
+            <input type="number" id="zeit" placeholder="Zeit">
+        </div>
+        <div class="row">
+            <input type="number" id="ergebnis" placeholder="Ergebnis">
+            <button onclick="berechne()">Berechne</button>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="quiz1Function.js"></script>
 </body>
 </html>
