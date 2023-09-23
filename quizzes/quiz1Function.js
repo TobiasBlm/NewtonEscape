@@ -8,8 +8,8 @@ function berechne() {
     const berechnetesErgebnis = (masse * g * hoehenunterschied) / zeit;
 
     if (Math.round(berechnetesErgebnis * 10) / 10 === parseFloat(ergebnis)) {
-        alert("Gut gemacht! Die Kösungsbuchstaben sind f,a,t,g");
+        alert("Gut gemacht! Die Lösungsbuchstaben sind f,a,t,g");
     } else {
-        alert("Das Ergebnis ist falsch!");
+        alert("Das Ergebnis ist falsch! Versuche es nochmal!");
     }
 }
