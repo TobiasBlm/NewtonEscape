@@ -7,13 +7,27 @@
     
     <title>Quiz 1</title>
 </head>
+<header>
+    <h2>Berechne die Leistung</h2>
+</header>
 <body>
     <div class="instruction">
+        <h4>Versuchsdurchführung</h4>
         <p>
-            Die Beschreibung des Versuchs
+            Einer von euch muss möglichst schnell eine Treppe hochlaufen, ein anderer Schüler oder eine andere Schülerin stoppt währendessen die benötigte Zeit. 
+            Zusätzlich müsst ihr den zurückgelegten Höhenunterschied berechnen, dass macht ihr indem ihr die Anzahl der Stufen mal die Stufenhöhe rechnet. Außerdem wird die Masse
+            des laufenden Schülers / der laufenden Schülerin benötigt.
+        </p>
+        <p>
+            Tragt die Werte in die vorgeschriebenen Eingabefelder ein und berechnet die benötigte Leistung. Das Ergebnis tragt ihr auf eine Nachkommastelle gerundet in das
+            mit Ergebnis beschriftete Eingabefeld ein.
+        </p>
+        <p>
+            Wenn ihr richtig gerechnet habt werden euch oben auf der Webseite Lösungsbuchstaben angezeigt.
         </p>
     </div>
-    <div class="container">
+    <div class="eingabe">
+        <div class="container">
         <div class="row">
             <input type="number" id="masse" placeholder="Masse in kg">
             <input type="number" id="hoehenunterschied" placeholder="Höhenunterschied in m">
@@ -24,6 +38,8 @@
             <button onclick="berechne()">Berechne</button>
         </div>
     </div>
+    </div>
+    
 
     <script type="text/javascript" src="quiz1Function.js"></script>
 </body>

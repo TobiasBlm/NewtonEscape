@@ -103,8 +103,9 @@ img{
   background:#333;
   color:#fff
 }
-.factsN{
-  position:absolute;
-  left: 40px;
-  top: 155px;
+
+.factsN {
+  margin-top: -160px;
+  margin-left: 40px;
+  text-align: left;
 }
