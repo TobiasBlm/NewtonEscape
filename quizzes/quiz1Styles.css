@@ -35,3 +35,8 @@ h2{
         background-clip: text;
         -webkit-background-clip: text;
 }
+.vid{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
