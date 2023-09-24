@@ -1,6 +1,6 @@
 .button {
     
-    color: white;
+    color: rgb(0, 0, 0);
     border: none;
     padding: 20px;
     text-align: center;
@@ -15,7 +15,7 @@
 
 /*individually set the backround images of the buttons*/
 #button1{
-    background-image: url('pictures\TreppenSteigen.jpg'); 
+    background-image: url('https://th.bing.com/th/id/OIG.Yy.SRqEjXeAr2vFZuxRi?w=270&h=270&c=6&r=0&o=5&pid=ImgGn'); 
 }
 
 #button2{
@@ -40,7 +40,8 @@
 
 .button:hover {
     background-color: lightgray; 
-    color: black;
+    color: rgb(100, 12, 12);
+    font-size: 25px;
 }
 
 .quiz{
