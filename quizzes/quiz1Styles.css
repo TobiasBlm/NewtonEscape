@@ -23,7 +23,6 @@ input {
     margin-top: auto;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-
 }
 
 h2{
@@ -39,4 +38,9 @@ h2{
     text-align: center;
     margin-top: 50px;
     font-size: 20px;
+}
+.learn{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
 }
