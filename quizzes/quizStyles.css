@@ -18,6 +18,9 @@
 input {
     padding: 5px;
 }
+.bild{
+    text-align: center;
+}
 .instruction{
     text-align: left;
     margin-top: auto;
@@ -33,6 +36,9 @@ h2{
         color: transparent;
         background-clip: text;
         -webkit-background-clip: text;
+}
+.vid p{
+    font-size: 16px;
 }
 .vid{
     text-align: center;
