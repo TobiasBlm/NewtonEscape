@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="de">
-    <head>
-        <link rel="stylesheet" href="styleButtons.css">
-        <meta charset="utf-8">
-        
-        <title>mainPage</title>
-    </head>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styleButtons.css">
+    <title>Quiz Selection</title>
+</head>
+<body>
     <header>
-        <h2>Wähle deine Aufgabe</h2>
+        <h1>Wähle deine Aufgabe</h1>
     </header>
-    <body>
-        <div class="quiz">
-            <a href="quizzes\quiz1.html" target="_blank"><button class="button" id="button1">Leistung</button></a> <!--Name instead of Button the quiz name-->
-            <a href="quizzes\quiz2.html" target="_blank"><button class="button" id="button2">Trägheit</button></a>
-            <a href="quizzes\quiz3.html" target="_blank"><button class="button" id="button3">Wechselwirkung</button></a>
-            <br>
-            <a href="quizzes\quiz4.html" target="_blank"><button class="button" id="button4">Flaschenzug</button></a>
-            <a href="quizzes\quiz5.html" target="_blank"><button class="button" id="button5">Die Newton'schen Gesetze</button></a>
-            <a href="quizzes\quiz6.html" target="_blank"><button class="button" id="button6">Hebelgesetze</button></a>
+    <div class="quiz-container">
+        <div class="quiz-row">
+            <a href="quizzes/quiz1.html" target="_blank" class="quiz-button" id="button1">Performance</a>
+            <a href="quizzes/quiz2.html" target="_blank" class="quiz-button" id="button2">Trägheit</a>
+            <a href="quizzes/quiz3.html" target="_blank" class="quiz-button" id="button3">Wechselwirkung</a>
         </div>
-    </body>
+        <div class="quiz-row">
+            <a href="quizzes/quiz4.html" target="_blank" class="quiz-button" id="button4">Flaschenzug</a>
+            <a href="quizzes/quiz5.html" target="_blank" class="quiz-button" id="button5">Newton'sche Gesetze</a>
+            <a href="quizzes/quiz6.html" target="_blank" class="quiz-button" id="button6">Hebelgesetze</a>
+        </div>
+    </div>
+</body>
 </html>

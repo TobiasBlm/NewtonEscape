@@ -1,0 +1,60 @@
+/*for quiz 1*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+.header {
+    background-color: #4caf50; /* Green */
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 20px;
+}
+h2{
+    text-align: center;
+    font-size: 25px;
+        font-weight: 600;
+        background-image: linear-gradient(to right, #553c9a 20%, #ee4b2b);
+        color: transparent;
+        background-clip: text;
+        -webkit-background-clip: text;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    background-color: #ffffff; /* White */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    max-width: 300px;
+}
+
+.input-field {
+    width: 93%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.calculate-button {
+    background-color: #4caf50; /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+}
+
+.calculate-button:hover {
+    background-color: #45a049; /* Darker Green on hover */
+}

@@ -1,65 +1,81 @@
-.button {
-    
-    color: rgb(0, 0, 0);
-    border: none;
-    padding: 20px;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light gray background */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #dab9ff; /* Lighter purple pastel */
+    color: white;
     text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    width: 300px;
-    height: 150px;
+    padding: 1rem;
+    margin-bottom: 20px;
 }
 
-/*individually set the backround images of the buttons*/
-#button1{
-    background-image: url('https://th.bing.com/th/id/OIG.Yy.SRqEjXeAr2vFZuxRi?w=270&h=270&c=6&r=0&o=5&pid=ImgGn'); 
-    background-size: 300px; 
+h1 {
+    font-size: 2rem;
+    margin: 0;
 }
 
-#button2{
+.quiz-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.quiz-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.quiz-button {
+    text-decoration: none;
+    background-color: #81c9e6; /* Darker blue pastel */
+    color: white;
+    padding: 4rem 8rem; /* Larger buttons */
+    margin: 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.quiz-button:hover {
+    background-color: rgb(145, 190, 201); /* Slightly lighter blue pastel on hover */
+    opacity: 0.85;
+}
+
+#button1 {
+    background-image: url('https://th.bing.com/th/id/OIG.Yy.SRqEjXeAr2vFZuxRi?w=270&h=270&c=6&r=0&o=5&pid=ImgGn');
+    background-size: 300px;
+    color: rgb(49, 49, 49);
+}
+
+
+#button2 {
     background-image: url('https://www.leifiphysik.de/sites/default/files/images/82359b6a861c0f6e22ac36d3f8ff3a63/0Crashtest_Newton_Grundwissen.webp');
-    background-size: 400px; 
+    background-size: 400px;
     color: azure;
 }
 
-#button3{
-    background-image: url('https://www.leifiphysik.de/sites/default/files/images/0178084bacd92cf2ba2816e59dffad37/311Wechselwirkungskr%C3%A4fte_1_Grundwissen.png'); 
-    background-size: 300px; 
+#button3 {
+    background-image: url('https://www.leifiphysik.de/sites/default/files/images/0178084bacd92cf2ba2816e59dffad37/311Wechselwirkungskr%C3%A4fte_1_Grundwissen.png');
+    background-size: 300px;
 }
 
-#button4{
-    background-image: url('https://www.gida.de/testcenter/physik/phys-dvd005/jpg/flaschenzug.jpg'); 
-    background-size: 300px; 
+#button4 {
+    background-image: url('https://www.gida.de/testcenter/physik/phys-dvd005/jpg/flaschenzug.jpg');
+    background-size: 300px;
+    color: rgb(49, 49, 49);
 }
 
-#button5{
-    background-image: url('backround.jpg'); 
-    background-size: 300px; 
-}
-
-#button6{
+#button5 {
     background-image: url('backround.jpg');
-    background-size: 300px; 
+    background-size: 300px;
 }
 
-.button:hover {
-    color: rgb(100, 12, 12);
-    font-size: 22px;
-    opacity: 0.8;
-    width: 302px;
-    height: 152px;
-}
-
-.quiz{
-    text-align: center;
-    margin-top: auto;
-}
-h2 {
-    font-family: Arial, sans-serif;
-    font-size: 30px;
-    color: #333;
-    text-align: center;
+#button6 {
+    background-image: url('backround.jpg');
+    background-size: 300px;
 }
