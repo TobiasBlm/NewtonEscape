@@ -47,35 +47,67 @@ h1 {
 }
 
 #button1 {
-    background-image: url('https://th.bing.com/th/id/OIG.Yy.SRqEjXeAr2vFZuxRi?w=270&h=270&c=6&r=0&o=5&pid=ImgGn');
-    background-size: 300px;
-    color: rgb(49, 49, 49);
+    background: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.3), 
+            rgba(0, 0, 0, 0.3)
+        ),
+        url("https://www.aerztezeitung.de/Bilder/Treppensteigen-als-Selbsttest-Benoetigen-Menschen-ueber-192532.jpg");
+    background-size: 350px;
+    color: white;
 }
 
-
 #button2 {
-    background-image: url('https://www.leifiphysik.de/sites/default/files/images/82359b6a861c0f6e22ac36d3f8ff3a63/0Crashtest_Newton_Grundwissen.webp');
+    background: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.3), 
+            rgba(0, 0, 0, 0.3)
+        ),
+        url('https://www.leifiphysik.de/sites/default/files/images/82359b6a861c0f6e22ac36d3f8ff3a63/0Crashtest_Newton_Grundwissen.webp');
     background-size: 400px;
     color: azure;
 }
 
 #button3 {
-    background-image: url('https://www.leifiphysik.de/sites/default/files/images/0178084bacd92cf2ba2816e59dffad37/311Wechselwirkungskr%C3%A4fte_1_Grundwissen.png');
-    background-size: 300px;
+    background: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.5), 
+            rgba(0, 0, 0, 0.5)
+        ),
+        url('https://www.leifiphysik.de/sites/default/files/images/0178084bacd92cf2ba2816e59dffad37/311Wechselwirkungskr%C3%A4fte_1_Grundwissen.png');
+    background-size: 200px;
 }
 
 #button4 {
-    background-image: url('https://www.gida.de/testcenter/physik/phys-dvd005/jpg/flaschenzug.jpg');
+    background: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.5), 
+            rgba(0, 0, 0, 0.5)
+        ),
+        url('https://www.gida.de/testcenter/physik/phys-dvd005/jpg/flaschenzug.jpg');
     background-size: 300px;
-    color: rgb(49, 49, 49);
+    color: white;
 }
 
 #button5 {
-    background-image: url('backround.jpg');
+    background: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.3), 
+            rgba(0, 0, 0, 0.3)
+        ),
+        url('https://www.swr.de/swr2/wissen/1653592903114,2841686-isaac-newton-legt-die-principia-mathematica-vor-102~_v-16x9@2dM_-ad6791ade5eb8b5c935dd377130b903c4b5781d8.jpg');
     background-size: 300px;
 }
 
 #button6 {
-    background-image: url('backround.jpg');
+    background: 
+        /* Black overlay with 50% opacity */
+        linear-gradient(
+            rgba(0, 0, 0, 0.5), 
+            rgba(0, 0, 0, 0.5)
+        ),
+        /* Your image */
+        url('https://www.jh-profishop.de/wp-content/uploads/2021/11/Jungheinrich-Grafik-Nr.-125-Hebelkraft-berechnen-02-1024x534.jpg');
     background-size: 300px;
+    color: white;
 }

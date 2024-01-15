@@ -58,3 +58,11 @@ h2{
 .calculate-button:hover {
     background-color: #45a049; /* Darker Green on hover */
 }
+
+.help{
+    font-size: 15px;
+    font-weight: 600;
+    color: #ee4b2b;
+    text-align: center;
+    margin-top: 10px;
+}

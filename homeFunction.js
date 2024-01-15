@@ -39,10 +39,10 @@ Scroller.prototype = {
   
   requestTick: function() {
     if( !this.ticking ) {
-      window.requestAnimFrame(this.update.bind(this));
+        window.requestAnimationFrame(this.update.bind(this));
+        this.ticking = true;
     }
-    this.ticking = true;
-  },
+},
 
   update: function() {
     var currentScrollY = this.latestKnownScrollY;
