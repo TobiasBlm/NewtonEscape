@@ -41,15 +41,15 @@ h1 {
     border-radius: 0.5rem;
     transition: background-color 0.3s ease;
     flex: 1 0 30%; /* Grow and shrink, basis of 30% */
-    max-width: 30%; /* Max width of 30% */
-}
+    max-width: 15%; /* Max width of 30% */
+    }
 
 /* Media query for devices with width less than 600px */
 @media (max-width: 600px) {
     .quiz-button {
         flex: 1 0 100%; /* Grow and shrink, basis of 100% */
         max-width: 100%; /* Max width of 100% */
-    }
+            }
 }
 
 .quiz-button:hover {
