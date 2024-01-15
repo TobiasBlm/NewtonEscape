@@ -28,6 +28,7 @@ h1 {
 .quiz-row {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap; /* Allows the buttons to wrap to the next line if there's not enough space */
     margin-bottom: 1rem;
 }
 
@@ -39,6 +40,16 @@ h1 {
     margin: 1rem;
     border-radius: 0.5rem;
     transition: background-color 0.3s ease;
+    flex: 1 0 30%; /* Grow and shrink, basis of 30% */
+    max-width: 30%; /* Max width of 30% */
+}
+
+/* Media query for devices with width less than 600px */
+@media (max-width: 600px) {
+    .quiz-button {
+        flex: 1 0 100%; /* Grow and shrink, basis of 100% */
+        max-width: 100%; /* Max width of 100% */
+    }
 }
 
 .quiz-button:hover {
